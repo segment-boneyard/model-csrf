@@ -11,12 +11,16 @@
 
 ## API
 
+### plugin([token])
+
+  Adds the `token` as the proper csrf header. If no `token` is given, will use `window._csrf` intead
+
 ```js
 var Model = require('model');
 var csrf = require('model-csrf');
 
 var User = Model('User')
-  .use(csrf)
+  .use(csrf())
   .attr('email');
 ```
 
