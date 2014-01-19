@@ -1,0 +1,14 @@
+{
+  "name": "model-csrf",
+  "repo": "segmentio/model-csrf",
+  "description": "CSRF plugin for component/model",
+  "version": "1.0.0",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
